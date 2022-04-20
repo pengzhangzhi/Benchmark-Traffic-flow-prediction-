@@ -1,5 +1,5 @@
 ## Tutorials
-1. docker
+1. pull docker image 
 ```
 docker pull tensorflow/tensorflow:2.4.3-gpu
 ```
@@ -9,7 +9,8 @@ docker run -it --mount type=bind,source=/user/pengzhangzhi/traffic/baseline/Smar
 ```
 source refers to the absolute path of current repo, target denotes the mapped path in docker container.
  
-2. python package 
+2. install python package 
+
 go to the target path and run the following command.
 ```
 pip install -r requirements.txt
@@ -20,7 +21,7 @@ bash train_TaxiBJ.sh
 bash train_TaxiNYC.sh
 ```
 
-## Some note about docker
+## Some notes about docker
 
 1. `Ctrl+P+Q` hung up container (not terminate!)
 2. `docker attach your_container_name` resume the container. 
