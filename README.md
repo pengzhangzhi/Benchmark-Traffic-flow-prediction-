@@ -1,4 +1,11 @@
-# Check Out `QuickStart`, where I provide out-of-the-box tutorial for you to use this repo!
+Note: This repo is adpoted from https://github.com/UNIMIBInside/Smart-Mobility-Prediction. 
+
+Due to technical reasons, I did not fork their code. 
+
+This code provide the baseline code of the field traffic flow prediction. 
+Most of the code in this field is too old to run, so I use docker to save you from installing tedious frameworks and provide one-line command to run the whole models.
+
+Check Out `QuickStart`, where I provide out-of-the-box tutorial for you to use this repo!
 
 
 # Smart Mobility Prediction 
@@ -22,20 +29,6 @@ The remaining folders are:
 * **data**. Folder where source data should be put in.
 * **helpers**. Contains some helpers code used for data visualization or to get weather info through an external API.
 
-## STREEDNet
-STREEDNet (Spatio Temporal REsidual Encoder-Decoder Network) is the new framework developed in this research. Its implementation is in [streednet.py](./Autoencoder/src/streednet.py). Its architecture is shown in the next figure. The main sections are Encoder, Cascade CMUs and Decoder. The encoder models the spatial dependencies of the four input frames, independently. Cascade CMUs are used like in [[3]](#3) to model temporal dependencies. The decoder finally computes the predicted image of traffic flows.
-
-![architecture](./images/streednet_architecture.png)
-
-### Encoder
-The encoder contains a start convolution layer, *L* encoder blocks and a final convolution layer. An encoder block has a residual unit and a down-sampling layer. This structure is represented in the next picture.
-
-![encoder](./images/encoder.png)
-
-### Decoder
-The decoder is almost symmetrical with respect to the encoder. It contains a start and an end convolution layer and *L* decoder blocks. In each decoder block there are an up-sampling layer and a residual unit, with a skip connection which allows informations to flow directly from the encoder. Furthermore, we inserted channel and spatial attention before the last convolution. Their implementation is similar to the ones described in [[7]](#7) and [[8]](#8).
-
-![decoder](./images/decoder.png)
 
 ## References
 <a id="1">[1]</a> 
