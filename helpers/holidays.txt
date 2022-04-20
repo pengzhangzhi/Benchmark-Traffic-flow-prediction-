@@ -1,0 +1,73 @@
+1	Friday, 1 January 2010	New Year's Day
+2	Monday, 18 January 2010	Martin Luther King Day
+3	Friday, 12 February 2010	Lincoln's Birthday
+4	Monday, 15 February 2010	President's Day/Susan B. Anthony Day
+5	Monday, 31 May 2010	Memorial Day
+6	Saturday, 19 June 2010	Juneteenth
+7	Sunday, 4 July 2010	Independence Day
+Monday, 5 July 2010	Independence Day Observance
+8	Monday, 6 September 2010	Labor Day
+9	Monday, 11 October 2010	Columbus Day
+10	Tuesday, 2 November 2010	Election Day
+11	Thursday, 11 November 2010	Veterans Day
+12	Thursday, 25 November 2010	Thanksgiving
+Friday, 24 December 2010	Christmas Observance/Christmas Eve
+13	Saturday, 25 December 2010	Christmas
+Friday, 31 December 2010	New Year's Day Observance
+1	Saturday, 1 January 2011	New Year's Day
+2	Monday, 17 January 2011	Martin Luther King Day
+Friday, 11 February 2011	Lincoln's Birthday Observance
+3	Saturday, 12 February 2011	Lincoln's Birthday
+4	Monday, 21 February 2011	President's Day
+5	Monday, 30 May 2011	Memorial Day
+6	Sunday, 19 June 2011	Juneteenth
+7	Monday, 4 July 2011	Independence Day
+8	Monday, 5 September 2011	Labor Day
+9	Monday, 10 October 2011	Columbus Day
+10	Tuesday, 8 November 2011	Election Day
+11	Friday, 11 November 2011	Veterans Day
+12	Thursday, 24 November 2011	Thanksgiving
+13	Sunday, 25 December 2011	Christmas
+Monday, 26 December 2011	Christmas Observance
+1	Sunday, 1 January 2012	New Year's Day
+Monday, 2 January 2012	New Year's Day Observance
+2	Monday, 16 January 2012	Martin Luther King Day
+3	Sunday, 12 February 2012	Lincoln's Birthday
+Monday, 13 February 2012	Lincoln's Birthday Observance
+4	Monday, 20 February 2012	President's Day
+5	Monday, 28 May 2012	Memorial Day
+6	Tuesday, 19 June 2012	Juneteenth
+7	Wednesday, 4 July 2012	Independence Day
+8	Monday, 3 September 2012	Labor Day
+9	Monday, 8 October 2012	Columbus Day
+10	Tuesday, 6 November 2012	Election Day
+11	Sunday, 11 November 2012	Veterans Day
+Monday, 12 November 2012	Veterans Day Observance
+12	Thursday, 22 November 2012	Thanksgiving
+13	Tuesday, 25 December 2012	Christmas
+1	Tuesday, 1 January 2013	New Year's Day
+2	Monday, 21 January 2013	Martin Luther King Day
+3	Tuesday, 12 February 2013	Lincoln's Birthday
+4	Monday, 18 February 2013	President's Day
+5	Monday, 27 May 2013	Memorial Day
+6	Wednesday, 19 June 2013	Juneteenth
+7	Thursday, 4 July 2013	Independence Day
+8	Monday, 2 September 2013	Labor Day
+9	Monday, 14 October 2013	Columbus Day
+10	Tuesday, 5 November 2013	Election Day
+11	Monday, 11 November 2013	Veterans Day
+12	Thursday, 28 November 2013	Thanksgiving
+13	Wednesday, 25 December 2013	Christmas
+1	Wednesday, 1 January 2014	New Year's Day
+2	Monday, 20 January 2014	Martin Luther King Day
+3	Wednesday, 12 February 2014	Lincoln's Birthday
+4	Monday, 17 February 2014	President's Day
+5	Monday, 26 May 2014	Memorial Day
+6	Thursday, 19 June 2014	Juneteenth
+7	Friday, 4 July 2014	Independence Day
+8	Monday, 1 September 2014	Labor Day
+9	Monday, 13 October 2014	Columbus Day
+10	Tuesday, 4 November 2014	Election Day
+11	Tuesday, 11 November 2014	Veterans Day
+12	Thursday, 27 November 2014	Thanksgiving
+13	Thursday, 25 December 2014	Christmas

@@ -1,0 +1,11 @@
+1 Wednesday, 1 January 2020 New Year's Day
+2 Monday, 6 January 2020 Epifania
+3 Monday, 13 April 2020 Lunedì di Pasqua
+4 Saturday, 25 April 2020 Anniversario Liberazione
+5	Friday, 1 May 2020 	Festa del lavoro
+6	Tuesday, 2 June 2020 	Festa della Repubblica Italia
+7	Saturday, 15 August 2020 	Ferragosto o Assunzione
+8	Sunday, 1 November 2020 	Ognissanti o Tutti i Santi
+9	Tuesday, 8 December 2020 	Immacolata Concezione
+10	Friday, 25 December 2020 	Santo Natale
+11	Saturday, 26 December 2020 	Santo Stefano

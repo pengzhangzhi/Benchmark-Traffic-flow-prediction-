@@ -1,0 +1,1 @@
+Folder dove vengono salvati i dati di input per ciascun modello
