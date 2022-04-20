@@ -1,15 +1,24 @@
 Note: This repo is adpoted from https://github.com/UNIMIBInside/Smart-Mobility-Prediction. 
 
 Due to technical reasons, I did not fork their code. 
-
-This code provide the baseline code of the field traffic flow prediction. 
-Most of the code in this field is too old to run, so I use docker to save you from installing tedious frameworks and provide one-line command to run the whole models.
-
+# Introduction
+This repo provide the implementations of baselines in the field traffic flow prediction. 
+Most of the code in this field is too out-of-date to run, so I use docker to save you from installing tedious frameworks and provide one-line command to run the whole models.
+Before running, make sure copy TaxiBJ dataset to the `data` folder.
 Check Out `QuickStart`, where I provide out-of-the-box tutorial for you to use this repo!
 
+## Install tedious frameworks
+```
+docker pull tensorflow/tensorflow:2.4.3-gpu
+docker run -it tensorflow/tensorflow:2.4.3-gpu
+pip install -r requirements.txt
+```
+## Run Baselines
+```
+bash train_TaxiBJ.sh
+bash train_TaxiNYC.sh
+```
 
-# Smart Mobility Prediction 
-This repository <!-- has been created for a university thesis at Università Bicocca in Milan. It --> contains the implementation and testing code of different deep networks for the traffic flow prediction problem.
 
 ## Repository structure
 Each of the main folders is dedicated to a specific deep learning network. Some of them were taken and modified from other repositories associated with the source paper, while others are our original implementations. Here it is an exhaustive list:
@@ -20,7 +29,7 @@ Each of the main folders is dedicated to a specific deep learning network. Some 
 * **STAR.** Folder for [[5]](#5). Soure code was taken from [here](https://github.com/hongnianwang/STAR).
 * **3D-CLoST.** Folder dedicated to a model created during another research at Università Bicocca.
 * **STDN.** Folder referring to [[6]](#6). This folder is actually a copy of [this](https://github.com/tangxianfeng/STDN) repository, since it was never used in our experimentes.
-* **Autoencoder.** Main folder of this repository, containing the implementation of new models for traffic flow prediction based on encoder-decoder architecture.
+* **Autoencoder.** Refer to paper: Listening to the city, attentively: A Spatio-TemporalAttention Boosted Autoencoder for the Short-Term Flow Prediction Problem.
 
 The contents of these folders can be a little different from each other, accordingly to the structure of the source repositories. Nevertheless, in each of them there are all the codes used to create input flow volumes, training and testing the models for single step prediction, and to evaluate performance on multi step prediction and transfer learning experiments.
 
