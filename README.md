@@ -7,8 +7,10 @@ Most of the code in this field is too out-of-date to run, so I use docker to sav
 Before running, make sure copy TaxiBJ dataset to the `data` folder.
 Check Out `QuickStart`, where I provide out-of-the-box tutorial for you to use this repo!
 
-## Install tedious frameworks
+## Install tedious frameworks with few lines of code
 ```
+git clone https://github.com/pengzhangzhi/Benchmark-Traffic-flow-prediction-.git
+cd Benchmark-Traffic-flow-prediction-
 docker pull tensorflow/tensorflow:2.4.3-gpu
 docker run -it tensorflow/tensorflow:2.4.3-gpu
 pip install -r requirements.txt
