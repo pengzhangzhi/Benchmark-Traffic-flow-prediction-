@@ -5,7 +5,7 @@ Due to technical reasons, I did not fork their code.
 This repo provide the implementations of baselines in the field traffic flow prediction. 
 Most of the code in this field is too out-of-date to run, so I use docker to save you from installing tedious frameworks and provide one-line command to run the whole models.
 Before running, make sure copy TaxiBJ dataset to the `data` folder.
-Check Out `QuickStart`, where I provide out-of-the-box tutorial for you to use this repo!
+Check Out [QuickStart](https://github.com/pengzhangzhi/Benchmark-Traffic-flow-prediction-/blob/main/QuickStart.md), where I provide out-of-the-box tutorial for you to use this repo!
 
 ## Install tedious frameworks with few lines of code
 ```
