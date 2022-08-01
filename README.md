@@ -1,6 +1,6 @@
-Note: This repo is adpoted from https://github.com/UNIMIBInside/Smart-Mobility-Prediction. 
 
-Due to technical reasons, I did not fork their code. 
+I have a paper in this field, check [here](https://github.com/pengzhangzhi/spatial-temporal-transformer) if you are interested.
+
 # Introduction
 This repo provide the implementations of baselines in the field traffic flow prediction. 
 Most of the code in this field is too out-of-date to run, so I use docker to save you from installing tedious frameworks and provide one-line command to run the whole models.
@@ -21,6 +21,9 @@ bash train_TaxiBJ.sh
 bash train_TaxiNYC.sh
 ```
 
+Note: This repo is adpoted from https://github.com/UNIMIBInside/Smart-Mobility-Prediction. 
+
+Due to technical reasons, I did not fork their code. 
 
 ## Repository structure
 Each of the main folders is dedicated to a specific deep learning network. Some of them were taken and modified from other repositories associated with the source paper, while others are our original implementations. Here it is an exhaustive list:
